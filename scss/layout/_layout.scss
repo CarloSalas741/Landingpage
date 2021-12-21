@@ -1,0 +1,280 @@
+/*----------Layout---------- */
+//Header
+.main-header{
+    width: 100%;
+}
+
+//----------------------------------------------------------------Nav Elements----------------------------------------------------------------
+
+//--Menu
+
+.nav-wrapper{
+    display: flex;
+    padding: 15px 80px;
+}
+
+.logo{
+    flex: 1;
+}
+
+.main-nav{
+    flex: 1.2;
+}
+.main-menu{
+
+    display: flex;
+    width: 100%;
+}
+
+.main-menu__item{
+    flex-basis: 80px;
+
+    a{
+        display: block;
+        padding: 20px 20px;
+       
+        &:hover{
+            background-color: aliceblue;
+        }
+    }
+}
+
+
+
+//Hero
+
+.hero-content{
+    display: flex;
+    position: relative;
+    height: 500px;
+}
+
+.hero-img{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 60%;
+        height: 70%;
+        margin-left: 300px;
+    }
+}
+
+.hero-thumb{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    justify-content:center;
+}
+
+
+
+//About
+
+.about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.title{
+
+       
+    h1{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    hr{
+        margin: auto;
+        margin-bottom: 60px;
+        width: 100px;
+    }
+}
+
+.about-row{
+    display: flex;
+    justify-content: center;
+}
+
+.about-description{
+    width: 30%;
+    padding-top: 20px;
+    h2,h3,p{
+        padding: 10px 10px;
+    } 
+}
+
+.about-member{
+    position: relative;
+    width: 15%;
+    height: 15%;
+    margin-left: 30px;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.member-description{
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 2px;
+    height: 100px;
+    bottom: 0px;
+    width: 100%;
+
+    .team-member-name, .team-member-department{
+        padding-top: 20px;
+    }
+    
+}
+
+//Divider
+
+.divider{
+    padding: 100px 70px;
+
+    .container{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}
+
+//screenshots
+
+.screenshots{
+
+    padding-bottom: 150px;
+    &-description{
+
+        h1{
+            text-align:center;
+            padding-top: 90px;
+            padding-bottom: 10px;
+        }
+
+        p{
+            margin:auto;
+            text-align: center;
+            margin-bottom: 40px;
+            width: 700px;
+        }
+
+    }
+
+}
+
+.screenshots-images{
+
+    div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-container{
+        width: 300px;
+        height: 500px;
+        margin: 30px 10px;
+    }
+}
+
+
+//Pricing 
+
+.pricing{
+    padding: 100px 0;
+
+    .title{
+        text-align: center;
+        h2{
+
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+
+    .pricing-plan{
+        width: 20%;
+        height: auto;
+        text-align: center;
+        margin-left: 40px;
+
+        .pricing-month{
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        .pricing-month,.pricing-title, p{
+            margin-bottom: 30px;
+        }
+
+        .btn{
+            position:relative;
+            top: 20px;
+        }
+    }
+}
+
+//Newsletter
+
+
+
+.newsletter{
+
+    ::placeholder{
+        color: white;
+        font-size: $medium-18;
+    }
+
+    padding: 120px 10px;
+    .content{
+
+        h2,p{
+            text-align: center;
+            margin-bottom: 30px
+        }
+
+        p{
+            width:40%;
+            margin: auto;
+            color: #f0f0f0;
+        }
+    }
+
+    .email-form{
+        padding-top: 30px;
+        text-align: center;
+
+        input[type="email"]{
+            width: 20%;
+            margin-right: 20px;
+            padding: 10px 10px;
+        }
+
+        .btn{
+            background-color: $white;
+            color: $cyan;
+            border: none;
+            font-size: $medium-20;
+            cursor: pointer;
+            font-family: 'Unica One', cursive;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}

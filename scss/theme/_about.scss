@@ -1,0 +1,44 @@
+.about{
+    background-color: $black;
+}
+
+.about-description{
+    h2{
+        font-size: $medium-32;
+    }
+
+    h3{
+        font-size: $medium-22;
+        font-weight: normal;
+    }
+  
+    p{
+        font-size: $medium-20;
+    }
+}
+
+.about h3{
+    color: $blue-violet;
+}
+
+.title, .about h2, .about p{
+    color: $white;
+}
+
+.member-description{
+    background-color: rgba(250,250,250,0.9);
+}
+
+.team-member-name{
+    color: $blue-violet;
+}
+
+.team-member-department{
+    color: $black;
+    font-weight: bold;
+}
+
+
+
+
+

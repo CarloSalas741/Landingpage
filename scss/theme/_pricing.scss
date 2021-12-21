@@ -1,0 +1,49 @@
+.pricing{
+    background-color: $blue-violet;
+
+    .title{
+        color: $white;
+        font-size: $big;
+    }
+
+    hr{
+        color: $white;
+    }
+}
+
+.pricing-plan{
+    
+    background-color: $white;
+    border-radius: 2px;
+
+    .pricing-month{
+        h2{
+            color: $cyan;
+            font-size: $big;
+            font-weight:normal;
+        }
+      
+    }
+
+    .pricing-title{
+        color: $blue-violet;
+        font-size: $medium-22;
+    }
+
+    p{
+        color: $grey;
+        font-size: $medium-20;
+    }
+
+    .btn{
+        background-color: $cyan;
+        color: $white;
+        border: none;
+        font-size: $medium-20;
+        cursor: pointer;
+        font-family: 'Unica One', cursive;
+        font-weight: bold;
+    }
+
+}
+

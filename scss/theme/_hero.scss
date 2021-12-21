@@ -1,0 +1,48 @@
+/*----------Theme Hero----------*/
+
+.hero{
+    position: relative;
+    background-image: url("/resources/home-bg.jpg"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+
+    &::before{
+        position: absolute;
+        content: '';
+        background: linear-gradient(to left,$blue,$violet);
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+
+.hero-thumb{
+    color: $white;
+
+    h1,p,a{
+        margin-bottom: 20px;
+    }
+    h1{
+        font-size: $big;
+    }
+
+    p{
+        font-size: $medium-20;
+    }
+
+    a{
+        background-color: $cyan;
+        color: $white;
+        font-size: $medium-20;
+        font-weight: bold;
+    }
+}
+
+
+
+
+

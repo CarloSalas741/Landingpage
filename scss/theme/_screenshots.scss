@@ -1,0 +1,15 @@
+.screenshots{
+    background-color: $black;
+
+    &-description{
+
+        h1{
+            color: $white;
+        }
+
+        p{
+            color: lightgrey;
+        }
+
+    }
+}

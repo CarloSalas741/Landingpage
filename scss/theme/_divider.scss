@@ -1,0 +1,23 @@
+.divider{
+    background-color: $cyan;
+
+    h2{
+        font-size: $medium-32;
+        color: $white;
+        font-weight: normal;
+    }
+
+    .btn{
+        background-color: $black;
+        color: $white;
+        font-weight: bold;
+
+        &:hover{
+            background-color: $cyan;
+            color: $black;
+            border: 1px solid $white;
+            transition: all .5s
+        }
+    }
+
+}

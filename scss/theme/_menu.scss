@@ -1,0 +1,33 @@
+
+.logo{
+
+    font-size: $medium-26;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    span{
+        &:first-child{
+            color:#1dc9e3
+        }
+    
+        &:last-child{
+            color:#535bd4;
+        }
+    }
+}
+
+.main-menu{
+    background-color: $white;
+
+    &__item{
+        a{  
+            color: #000;
+            font-size: $medium-18;
+            &:hover{
+                background-color: aliceblue;
+               
+            }
+        }
+    }
+}

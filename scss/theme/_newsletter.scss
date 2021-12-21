@@ -1,0 +1,34 @@
+.newsletter{
+    position:relative;
+    background: url(/resources/newsletter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+
+    &::before{
+        position: absolute;
+        content: '';
+        background-color: $cyan;
+        opacity: .9;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .content{
+
+        h2{
+            color: $white;
+        }
+    }
+}
+
+.newsletter-container{
+    position: relative;
+    input[type="email"]{
+        border: none;
+        outline: none;
+        background:transparent;
+        border-bottom: 3px solid $white;
+    }
+}

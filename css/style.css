@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Unica One', cursive;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 100px;
+  padding: 15px 35px;
+}
+
+/*----------Layout---------- */
+.main-header {
+  width: 100%;
+}
+
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 80px;
+}
+
+.logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-nav {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+}
+
+.main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.main-menu__item {
+  -ms-flex-preferred-size: 80px;
+      flex-basis: 80px;
+}
+
+.main-menu__item a {
+  display: block;
+  padding: 20px 20px;
+}
+
+.main-menu__item a:hover {
+  background-color: aliceblue;
+}
+
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 500px;
+}
+
+.hero-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-img img {
+  width: 60%;
+  height: 70%;
+  margin-left: 300px;
+}
+
+.hero-thumb {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  letter-spacing: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.title h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title hr {
+  margin: auto;
+  margin-bottom: 60px;
+  width: 100px;
+}
+
+.about-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-description {
+  width: 30%;
+  padding-top: 20px;
+}
+
+.about-description h2, .about-description h3, .about-description p {
+  padding: 10px 10px;
+}
+
+.about-member {
+  position: relative;
+  width: 15%;
+  height: 15%;
+  margin-left: 30px;
+}
+
+.about-member img {
+  width: 100%;
+  height: 100%;
+}
+
+.member-description {
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 2px;
+  height: 100px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.member-description .team-member-name, .member-description .team-member-department {
+  padding-top: 20px;
+}
+
+.divider {
+  padding: 100px 70px;
+}
+
+.divider .container {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.divider h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.screenshots {
+  padding-bottom: 150px;
+}
+
+.screenshots-description h1 {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+
+.screenshots-description p {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 700px;
+}
+
+.screenshots-images div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.screenshots-images .img-container {
+  width: 300px;
+  height: 500px;
+  margin: 30px 10px;
+}
+
+.pricing {
+  padding: 100px 0;
+}
+
+.pricing .title {
+  text-align: center;
+}
+
+.pricing .title h2 {
+  margin-bottom: 30px;
+}
+
+.pricing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing-container .pricing-plan {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.pricing-container .pricing-plan .pricing-month {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.pricing-container .pricing-plan .pricing-month, .pricing-container .pricing-plan .pricing-title, .pricing-container .pricing-plan p {
+  margin-bottom: 30px;
+}
+
+.pricing-container .pricing-plan .btn {
+  position: relative;
+  top: 20px;
+}
+
+.newsletter {
+  padding: 120px 10px;
+}
+
+.newsletter ::-webkit-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.newsletter :-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.newsletter ::-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.newsletter ::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.newsletter .content h2, .newsletter .content p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.newsletter .content p {
+  width: 40%;
+  margin: auto;
+  color: #f0f0f0;
+}
+
+.newsletter .email-form {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.newsletter .email-form input[type="email"] {
+  width: 20%;
+  margin-right: 20px;
+  padding: 10px 10px;
+}
+
+.newsletter .email-form .btn {
+  background-color: #ffffff;
+  color: #1dc9e3;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Unica One', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo span:first-child {
+  color: #1dc9e3;
+}
+
+.logo span:last-child {
+  color: #535bd4;
+}
+
+.main-menu {
+  background-color: #ffffff;
+}
+
+.main-menu__item a {
+  color: #000;
+  font-size: 18px;
+}
+
+.main-menu__item a:hover {
+  background-color: aliceblue;
+}
+
+/*----------Theme Hero----------*/
+.hero {
+  position: relative;
+  background-image: url("/resources/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero::before {
+  position: absolute;
+  content: '';
+  background: -webkit-gradient(linear, right top, left top, from(#4776E6), to(#8E54E9));
+  background: linear-gradient(to left, #4776E6, #8E54E9);
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-thumb {
+  color: #ffffff;
+}
+
+.hero-thumb h1, .hero-thumb p, .hero-thumb a {
+  margin-bottom: 20px;
+}
+
+.hero-thumb h1 {
+  font-size: 52px;
+}
+
+.hero-thumb p {
+  font-size: 20px;
+}
+
+.hero-thumb a {
+  background-color: #1dc9e3;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about {
+  background-color: #1c1c1c;
+}
+
+.about-description h2 {
+  font-size: 32px;
+}
+
+.about-description h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.about-description p {
+  font-size: 20px;
+}
+
+.about h3 {
+  color: #535bd4;
+}
+
+.title, .about h2, .about p {
+  color: #ffffff;
+}
+
+.member-description {
+  background-color: rgba(250, 250, 250, 0.9);
+}
+
+.team-member-name {
+  color: #535bd4;
+}
+
+.team-member-department {
+  color: #1c1c1c;
+  font-weight: bold;
+}
+
+.divider {
+  background-color: #1dc9e3;
+}
+
+.divider h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.divider .btn {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.divider .btn:hover {
+  background-color: #1dc9e3;
+  color: #1c1c1c;
+  border: 1px solid #ffffff;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.screenshots {
+  background-color: #1c1c1c;
+}
+
+.screenshots-description h1 {
+  color: #ffffff;
+}
+
+.screenshots-description p {
+  color: lightgrey;
+}
+
+.pricing {
+  background-color: #535bd4;
+}
+
+.pricing .title {
+  color: #ffffff;
+  font-size: 52px;
+}
+
+.pricing hr {
+  color: #ffffff;
+}
+
+.pricing-plan {
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.pricing-plan .pricing-month h2 {
+  color: #1dc9e3;
+  font-size: 52px;
+  font-weight: normal;
+}
+
+.pricing-plan .pricing-title {
+  color: #535bd4;
+  font-size: 22px;
+}
+
+.pricing-plan p {
+  color: #999;
+  font-size: 20px;
+}
+
+.pricing-plan .btn {
+  background-color: #1dc9e3;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Unica One', cursive;
+  font-weight: bold;
+}
+
+.newsletter {
+  position: relative;
+  background: url(/resources/newsletter-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.newsletter::before {
+  position: absolute;
+  content: '';
+  background-color: #1dc9e3;
+  opacity: .9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.newsletter .content h2 {
+  color: #ffffff;
+}
+
+.newsletter-container {
+  position: relative;
+}
+
+.newsletter-container input[type="email"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 3px solid #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
